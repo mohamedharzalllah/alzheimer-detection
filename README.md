@@ -58,9 +58,3 @@ jupyter notebook
 ```
 
 Lancer les notebooks depuis le dossier `notebooks/` (les chemins pointent vers `../data/`). Chaque notebook génère un fichier `submission.csv` (colonnes `ID`, `Target`) dans `notebooks/` : les deux notebooks écrivent le même nom de fichier, donc le dernier exécuté écrase l'autre.
-
-## Fichiers à supprimer (`_to_delete/`)
-
-| Fichier | Raison |
-|---|---|
-| `model with high performance.txt` | Brouillon : deux variantes copiées-collées du MLP résiduel (entrées PCA 80 et 100). Non utilisé par les notebooks ; le modèle final est dans `Project_Deep_DL.ipynb`. |
